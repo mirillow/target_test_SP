@@ -18,6 +18,7 @@ def fibonacci_loop(target, current_num, previous_num):
     return fibonacci_loop(target, next_num, current_num)
 
 
+## Entrada pelo STDIN
 def main():
     n = int(input())
     if is_in_fibonacci(n):  
